@@ -106,4 +106,4 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 1. Flutter SDK’yı bilgisayarınıza kurun  
 2. Depoyu klonlayın:
 ```bash
-git clone <repo-link>
+git clone <https://github.com/mmcN1/shartflix/tree/main>
