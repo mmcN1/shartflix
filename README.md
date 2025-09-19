@@ -16,52 +16,94 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 
 ### Screens
 
-#### 1. Splash Screen
-<img src="https://github.com/user-attachments/assets/25624deb-0a0b-4294-9bfc-1b10fc2f852c" width="300"/>
-- Uygulama açıldığında gösterilir
-- 2 saniye sonra login ekranına yönlendirir
-- Uygulama logosu merkezde yer alır
-- Arka plan radial gradient ile renklendirilmiştir
+<table>
+  <tr>
+    <td>
+      <b>1. Splash Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/25624deb-0a0b-4294-9bfc-1b10fc2f852c" width="200"/>
+    </td>
+    <td>
+      - Uygulama açıldığında gösterilir<br>
+      - 2 saniye sonra login ekranına yönlendirir<br>
+      - Uygulama logosu merkezde yer alır<br>
+      - Arka plan radial gradient ile renklendirilmiştir
+    </td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  
+  <tr>
+    <td>
+      <b>2. Login Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/6fe2801a-0edd-443f-b9a1-fbfa25e9430c" width="200"/>
+    </td>
+    <td>
+      - E-posta ve şifre alanları<br>
+      - Şifre göster/gizle özelliği<br>
+      - “Şifremi Unuttum” ve sosyal giriş butonları<br>
+      - Başarılı giriş → Profile Photo Screen’e yönlendirme
+    </td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+  
+  <tr>
+    <td>
+      <b>3. Register Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/42548c4e-0a23-4cb0-91ea-c7a535debdb6" width="200"/>
+    </td>
+    <td>
+      - Ad Soyad, E-posta, Şifre ve Şifre Tekrar alanları<br>
+      - Hatalı girişlerde uyarı mesajı gösterir<br>
+      - Kayıt başarılı → Login Screen’e yönlendirme
+    </td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+
+  <tr>
+    <td>
+      <b>4. Profile Photo Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/2adc11ec-1d02-4a75-b92e-8381b155c853" width="200"/>
+    </td>
+    <td>
+      - Kullanıcı profil fotoğrafını yükleyebilir veya atlayabilir<br>
+      - Fotoğraf seçme ve yükleme özelliği<br>
+      - “Devam Et” ve “Atla” butonları ile ilerleme
+    </td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+
+  <tr>
+    <td>
+      <b>5. Home Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/7dadc03f-7d5e-4958-a8ff-bcd560063b0d" width="200"/>
+    </td>
+    <td>
+      - Film listesini dikey kaydırmalı `PageView` ile gösterir<br>
+      - Film posterleri ve açıklamaları<br>
+      - Favori ekleme/çıkarma butonu<br>
+      - Alt navbar ile Home ve Profile sayfasına geçiş
+    </td>
+  </tr>
+  <tr><td colspan="2"><hr></td></tr>
+
+  <tr>
+    <td>
+      <b>6. Profile Screen</b><br>
+      <img src="https://github.com/user-attachments/assets/166c0e18-f7ae-43a3-9532-ece392c4bda1" width="200"/>
+    </td>
+    <td>
+      - Kullanıcı bilgilerini gösterir (isim, ID, profil fotoğrafı)<br>
+      - Favori filmler grid şeklinde görüntülenir<br>
+      - Profil fotoğrafını ekleme veya değiştirme<br>
+      - Alt navbar ile Home ve Profile sayfasına geçiş
+    </td>
+  </tr>
+</table>
 
 ---
 
-#### 2. Login Screen
-<img src="https://github.com/user-attachments/assets/6fe2801a-0edd-443f-b9a1-fbfa25e9430c" width="300"/>
-- E-posta ve şifre alanları
-- Şifre göster/gizle özelliği
-- “Şifremi Unuttum” ve sosyal giriş butonları
-- Başarılı giriş → Profile Photo Screen’e yönlendirme
+### Installation
 
----
-
-#### 3. Register Screen
-<img src="https://github.com/user-attachments/assets/42548c4e-0a23-4cb0-91ea-c7a535debdb6" width="300"/>
-- Ad Soyad, E-posta, Şifre ve Şifre Tekrar alanları
-- Hatalı girişlerde uyarı mesajı gösterir
-- Kayıt başarılı → Login Screen’e yönlendirme
-
----
-
-#### 4. Profile Photo Screen
-<img src="https://github.com/user-attachments/assets/2adc11ec-1d02-4a75-b92e-8381b155c853" width="300"/>
-- Kullanıcı profil fotoğrafını yükleyebilir veya atlayabilir
-- Fotoğraf seçme ve yükleme özelliği
-- “Devam Et” ve “Atla” butonları ile ilerleme
-
----
-
-#### 5. Home Screen
-<img src="https://github.com/user-attachments/assets/7dadc03f-7d5e-4958-a8ff-bcd560063b0d" width="300"/>
-- Film listesini dikey kaydırmalı `PageView` ile gösterir
-- Film posterleri ve açıklamaları
-- Favori ekleme/çıkarma butonu
-- Alt navbar ile Home ve Profile sayfasına geçiş
-
----
-
-#### 6. Profile Screen
-<img src="https://github.com/user-attachments/assets/166c0e18-f7ae-43a3-9532-ece392c4bda1" width="300"/>
-- Kullanıcı bilgilerini gösterir (isim, ID, profil fotoğrafı)
-- Favori filmler grid şeklinde görüntülenir
-- Profil fotoğrafını ekleme veya değiştirme
-- Alt navbar ile Home ve Profile sayfasına geçiş
+1. Flutter SDK’yı bilgisayarınıza kurun  
+2. Depoyu klonlayın:
+```bash
+git clone <repo-link>
