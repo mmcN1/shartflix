@@ -17,7 +17,7 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ### Screens
 
 #### 1. Splash Screen
-![Splash Screen](https://github.com/user-attachments/assets/25624deb-0a0b-4294-9bfc-1b10fc2f852c)
+<img src="https://github.com/user-attachments/assets/25624deb-0a0b-4294-9bfc-1b10fc2f852c" width="300"/>
 - Uygulama açıldığında gösterilir
 - 2 saniye sonra login ekranına yönlendirir
 - Uygulama logosu merkezde yer alır
@@ -26,7 +26,7 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ---
 
 #### 2. Login Screen
-![Login Screen](https://github.com/user-attachments/assets/6fe2801a-0edd-443f-b9a1-fbfa25e9430c)
+<img src="https://github.com/user-attachments/assets/6fe2801a-0edd-443f-b9a1-fbfa25e9430c" width="300"/>
 - E-posta ve şifre alanları
 - Şifre göster/gizle özelliği
 - “Şifremi Unuttum” ve sosyal giriş butonları
@@ -35,7 +35,7 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ---
 
 #### 3. Register Screen
-![Register Screen](https://github.com/user-attachments/assets/42548c4e-0a23-4cb0-91ea-c7a535debdb6)
+<img src="https://github.com/user-attachments/assets/42548c4e-0a23-4cb0-91ea-c7a535debdb6" width="300"/>
 - Ad Soyad, E-posta, Şifre ve Şifre Tekrar alanları
 - Hatalı girişlerde uyarı mesajı gösterir
 - Kayıt başarılı → Login Screen’e yönlendirme
@@ -43,7 +43,7 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ---
 
 #### 4. Profile Photo Screen
-![Profile Photo Screen](https://github.com/user-attachments/assets/2adc11ec-1d02-4a75-b92e-8381b155c853)
+<img src="https://github.com/user-attachments/assets/2adc11ec-1d02-4a75-b92e-8381b155c853" width="300"/>
 - Kullanıcı profil fotoğrafını yükleyebilir veya atlayabilir
 - Fotoğraf seçme ve yükleme özelliği
 - “Devam Et” ve “Atla” butonları ile ilerleme
@@ -51,7 +51,7 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ---
 
 #### 5. Home Screen
-![Home Screen](https://github.com/user-attachments/assets/7dadc03f-7d5e-4958-a8ff-bcd560063b0d)
+<img src="https://github.com/user-attachments/assets/7dadc03f-7d5e-4958-a8ff-bcd560063b0d" width="300"/>
 - Film listesini dikey kaydırmalı `PageView` ile gösterir
 - Film posterleri ve açıklamaları
 - Favori ekleme/çıkarma butonu
@@ -60,17 +60,8 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 ---
 
 #### 6. Profile Screen
-![Profile Screen](https://github.com/user-attachments/assets/166c0e18-f7ae-43a3-9532-ece392c4bda1)
+<img src="https://github.com/user-attachments/assets/166c0e18-f7ae-43a3-9532-ece392c4bda1" width="300"/>
 - Kullanıcı bilgilerini gösterir (isim, ID, profil fotoğrafı)
 - Favori filmler grid şeklinde görüntülenir
 - Profil fotoğrafını ekleme veya değiştirme
 - Alt navbar ile Home ve Profile sayfasına geçiş
-
----
-
-### Installation
-
-1. Flutter SDK’yı bilgisayarınıza kurun
-2. Depoyu klonlayın:
-```bash
-git clone <repo-link>
