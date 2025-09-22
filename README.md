@@ -101,18 +101,18 @@ Shartflix, kullanıcıların film içeriklerini keşfedebileceği, favorilere ek
 
 ---
 
-### Installation
-
-1. Flutter SDK’yı bilgisayarınıza kurun  
-2. Depoyu klonlayın:
-```bash
-git clone <https://github.com/mmcN1/shartflix/tree/main>
-
----
-
 ### Materials
 
 - [API Documentation](https://caseapi.servicelabs.tech/api-docs/)  
 - [UI Design (Figma)](https://www.figma.com/design/9TbWefkeGlVY96CrtsWLXg/Flutter-Dev-%C2%B7-Case-Study-NodeLab--Copy-?node-id=14001-61&t=zcU9kmzooCy7wSHG-1)  
 - [Junior Case Boilerplate (GitHub)](https://github.com/nsilabs/nl_flutter_junior_case)  
+
+---
+
+### Installation
+
+1. Flutter SDK’yı bilgisayarınıza kurun  
+2. Depoyu klonlayın:
+```bash
+git clone https://github.com/kullaniciadi/Shartflix.git
 
